@@ -1,0 +1,31 @@
+body{
+    background-color: #dedfe0;
+}
+
+header{
+    font-size: 72px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: orange;
+    text-shadow: 2px 2px #ff0000;
+}
+
+article{
+    text-align: center; 
+    color: green; 
+    padding: 50px; 
+    font-size: 18px;
+    background-color: pink;
+    border-style: groove;
+    border-width: 7px;
+    border-color: coral;
+    margin-top: 15px;
+    line-space: 20px;
+
+}
+
+footer{
+    text-align: center;
+    font-size: 12;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
