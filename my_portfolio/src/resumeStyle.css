@@ -1,0 +1,86 @@
+body{
+    background-color: #0c275e;
+}
+
+header {
+background-color: #1b85ba;
+text-align: center; 
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 20px;
+margin-left: 100px;
+margin-right: 100px;
+margin-bottom: 0px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+#contact{
+  font-size: 15px;  
+  border-bottom-color: black;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  padding-bottom: 10px;
+}
+
+main{
+background-color: #1b85ba;
+margin-left: 100px;
+margin-right: 100px;
+margin-top: 0px;
+font-size: 15px;
+padding-top: 20px;
+padding-left: 100px;
+padding-right:100px;
+padding-bottom: 50px;
+}
+
+#summary{
+    border-bottom-color: black;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+
+#education{
+    border-bottom-color: black;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+#degree{
+    text-align: left;
+    
+}
+
+#educationDate{
+    text-align: right;
+    float: right;
+}
+
+#school{
+    text-align: left;
+}
+
+#city{
+    float: right;
+}
+
+#skills{
+    border-bottom-color: black;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+
+#honors{
+    border-bottom-color: black;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+
+#experience{
+    border-bottom-color: black;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+
+#jobDate1{
+    float: right;
+}
