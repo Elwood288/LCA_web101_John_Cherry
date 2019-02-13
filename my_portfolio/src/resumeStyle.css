@@ -3,7 +3,7 @@ body{
 }
 
 header {
-background-color: #1b85ba;
+background-color: #bed4f7;
 text-align: center; 
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: 20px;
@@ -23,7 +23,7 @@ padding-bottom: 20px;
 }
 
 main{
-background-color: #1b85ba;
+background-color: #bed4f7;
 margin-left: 100px;
 margin-right: 100px;
 margin-top: 0px;
@@ -81,6 +81,25 @@ padding-bottom: 50px;
     border-bottom-style: solid;
 }
 
+#jobName1{
+text-align: left;
+}
+
 #jobDate1{
+    float: right;
+}
+
+#jobCity1{
+    float: right;
+}
+
+#jobName2{
+    text-align: left;
+    }
+
+#jobDate2{
+    float: right;
+}
+#jobCity2{
     float: right;
 }
