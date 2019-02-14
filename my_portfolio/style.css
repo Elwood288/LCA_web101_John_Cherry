@@ -2,14 +2,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-image: url(Images/reach.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: auto;
     
   }
   
   .logo {
-    width: 30%;
-    height: 80%;
-    margin: 3% 10%;
+    height: 100px;
+    width: 100px;
   }
   
   header {
@@ -32,11 +31,12 @@ body {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    border-radius: 25px;
+    border-radius: 10px;
     background: transparent;
     padding: 20px; 
     text-align: center;
     border: 2px solid white;
+    white-space: nowrap;
     
   }
 
@@ -57,10 +57,10 @@ body {
   }
   
   #profile-pic {
-    width: 285px;
-    height: 285px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
-    margin: 15% auto;
+    margin: 5% auto;
     grid-column: 2/3;
   }
   
@@ -93,4 +93,117 @@ body {
     color: white;
     letter-spacing: 16px;
     font-style: italic;
+  }
+
+
+  @media(max-width: 992px ){
+    .logo {
+      height: 80px;
+      width: 80px;
+    }
+    nav > a {
+      margin: 2% 1% 3%;
+      height: 15%;
+      width: 10%;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 11px;
+      border-radius: 10px;
+      background: transparent;
+      padding: 10%; 
+      text-align: center;
+      border: 2px solid white;
+      white-space: nowrap;
+      
+    }
+
+    .has-border {
+      border-radius: 25px;
+      border: 2px solid #0795C3;
+      background: none;
+      padding: 15px;
+      overflow: hidden;
+    }
+    #myTitle{
+      font-size: 20px;
+    }
+  }
+
+  @media(max-width: 768px ){
+    body {
+      background: none;
+      background-color: #46494f;
+    }
+    nav > a {
+      height: 10%;
+      width: 15%;
+      white-space: wrap;
+      padding: 10px; 
+      text-align: center;
+      border: 2px solid white;
+      font-size: 10px;
+     
+      
+    }
+
+    .has-border {
+      border-radius: 25px;
+      border: 2px solid #0795C3;
+      background: none;
+      padding: 10px;
+      overflow: hidden;
+    }
+
+    #profile-pic {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      margin: 15% auto;
+      grid-column: 2/3;
+    }
+  
+    #myTitle{
+      font-size: 15px;
+    }
+  }
+
+  @media(max-width: 576px ){
+    body {
+      background: none;
+      background-color: #46494f;
+    }
+    nav > a {
+      margin: 2% 1% 3%;
+      height: 5%;
+      width: 15%;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10px;
+      border-radius: 5px;
+      background: transparent;
+      padding: 10%; 
+      text-align: center;
+      border: 2px solid white;
+      
+      
+    }
+
+    .has-border {
+      border-radius: 25px;
+      border: 2px solid #0795C3;
+      background: none;
+      padding: 8px;
+      overflow: hidden;
+    }
+    #profile-pic {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      margin: 15% auto;
+      grid-column: 2/3;
+    }
+  
+    #myTitle{
+      font-size: 12px;
+    }
   }
