@@ -9,7 +9,9 @@
 </head>
 <body>
     <div class="container">
-        <header>header</header>
+        <header>
+            <p id="greeting">Hello <span id="userName">(User Name)</span>! Welcome to my dashboard!</p>
+        </header>
         <nav>
           <ul>
             <li><a href="#">nav 1</a></li>
@@ -18,74 +20,90 @@
           </ul>
         </nav>
         <main>
-          <h1>Main Title</h1>
-          <p>Main content</p>
-
-          <div id="calculator">
-            <input type="text" id="displayBox">
-             <div id="calculatorButtons">
-                <button  class="digitButton" id="7">7</button>
-                <button class="digitButton" id="8">8</button>
-                <button class="digitButton" id="9">9</button>
-                <button class="functionButton" id="divide">/</button>
-                <button class="digitButton" id="4">4</button>
-                <button class="digitButton" id="5">5</button>
-                <button class="digitButton" id="6">6</button>
-                <button class="functionButton" id="multiply">*</button>
-                <button class="digitButton" id="1">1</button>
-                <button class="digitButton" id="2">2</button>
-                <button class="digitButton" id="3">3</button>
-                <button class="functionButton" id="subtract">-</button>
-                <button class="digitButton" id="0">0</button>
-                <button class="digitButton" id="decimal">.</button>
-                <button class="functionButton" id="clear">C</button>
-                <button class="functionButton" id="add">+</button>
-                <button class="functionButton" id="equals">=</button>
-            </div>
-            
-        </div>
+          <h1 id="clockAndCalendarTitle">Calendar and Clock</h1>
+          
 
         <div id="clockAndCalendar">
-            <div id="clock">
+            <div id="clockContainer"><span id="clock">
                 10:47 P.M.
+            </span>
             </div>
-            
-            <div id="calendar">
-                <div class="calendarDay">1</div>
-                <div class="calendarDay">1</div>
-                <div class="calendarDay">1</div>
-                <div class="calendarDay">1</div>
-                <div class="calendarDay">1</div>
-                <div class="calendarDay">1</div>
-                <div class="calendarDay">1</div>
-                <div class="calendarDay">1</div>
-                <div class="calendarDay">1</div>
-                <div class="calendarDay">1</div>
-                <div class="calendarDay">1</div>
-                <div class="calendarDay">1</div>
-                <div class="calendarDay">1</div>
-                <div class="calendarDay">1</div>
-                <div class="calendarDay">1</div>
-                <div class="calendarDay">1</div>
-                <div class="calendarDay">1</div>
-                <div class="calendarDay">1</div>
-                <div class="calendarDay">1</div>
-                <div class="calendarDay">1</div>
-                <div class="calendarDay">1</div>
-                <div class="calendarDay">1</div>
-                <div class="calendarDay">1</div>
-                <div class="calendarDay">1</div>
-                <div class="calendarDay">1</div>
-                <div class="calendarDay">1</div>
-                <div class="calendarDay">1</div>
-                <div class="calendarDay">1</div>
-                <div class="calendarDay">1</div>
-                <div class="calendarDay">1</div>
-                <div class="calendarDay">1</div>
+                <div id="calendarMonth">January</div>
+                <div id="calendarDays">
+                    <div class="calendarDay">1</div>
+                    <div class="calendarDay">2</div>
+                    <div class="calendarDay">3</div>
+                    <div class="calendarDay">4</div>
+                    <div class="calendarDay">5</div>
+                    <div class="calendarDay">6</div>
+                    <div class="calendarDay">7</div>
+                    <div class="calendarDay">8</div>
+                    <div class="calendarDay">9</div>
+                    <div class="calendarDay">10</div>
+                    <div class="calendarDay">11</div>
+                    <div class="calendarDay">12</div>
+                    <div class="calendarDay">13</div>
+                    <div class="calendarDay">14</div>
+                    <div class="calendarDay">15</div>
+                    <div class="calendarDay">16</div>
+                    <div class="calendarDay">17</div>
+                    <div class="calendarDay">18</div>
+                    <div class="calendarDay">19</div>
+                    <div class="calendarDay">20</div>
+                    <div class="calendarDay">21</div>
+                    <div class="calendarDay">22</div>
+                    <div class="calendarDay">23</div>
+                    <div class="calendarDay">24</div>
+                    <div class="calendarDay">25</div>
+                    <div class="calendarDay">26</div>
+                    <div class="calendarDay">27</div>
+                    <div class="calendarDay">28</div>
+                    <div class="calendarDay">29</div>
+                    <div class="calendarDay">30</div>
+                    <div class="calendarDay">31</div>
             </div>
         </div>
         </main>
-        <aside>aside</aside>
+        <aside>
+            <p>Calculator and To Do List</p>
+
+                <div id="calculator">
+                        <input type="text" id="displayBox">
+                         <div id="calculatorButtons">
+                            <button  class="digitButton" id="7">7</button>
+                            <button class="digitButton" id="8">8</button>
+                            <button class="digitButton" id="9">9</button>
+                            <button class="functionButton" id="divide">/</button>
+                            <button class="digitButton" id="4">4</button>
+                            <button class="digitButton" id="5">5</button>
+                            <button class="digitButton" id="6">6</button>
+                            <button class="functionButton" id="multiply">*</button>
+                            <button class="digitButton" id="1">1</button>
+                            <button class="digitButton" id="2">2</button>
+                            <button class="digitButton" id="3">3</button>
+                            <button class="functionButton" id="subtract">-</button>
+                            <button class="digitButton" id="0">0</button>
+                            <button class="digitButton" id="decimal">.</button>
+                            <button class="functionButton" id="clear">C</button>
+                            <button class="functionButton" id="add">+</button>
+                            <button class="functionButton" id="equals">=</button>
+                        </div>
+                        
+                <div id="toDoListContainer">
+                        <input type="text" id="newToDo">
+                        <ul id="toDoList">
+                            <li id="toDo">Code Calculator</li>
+                            <li id="toDo">Code Clock and Calendar</li>
+                            <li id="toDo">Code To Do List</li>
+                            <li id="toDo">Code Greeting</li>
+
+                        </ul>
+
+
+                </div>
+                    </div>
+
+        </aside>
         <div class="banner">div.banner</div>
         <footer>footer</footer>
       </div>

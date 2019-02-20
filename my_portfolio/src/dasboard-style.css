@@ -35,25 +35,44 @@ header {
       "footer";
   }
 
+/* Greeting Start */
+
+#greeting{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+/* Greeting End */
+
+/* Calculator Start */
   #calculator{
       background-color: rgb(201, 197, 197);
-      height: 120px;
-      width: 142px;
+      height: 160px;
+      width: 110px;
       margin: 2px;
       padding: 5px;
+      border-color: black;
+      border-width: 2px;
+      border-style: solid;
+      border-radius: 15px;
+      margin-left: 20px;
   }
 #displayBox{
 width: 100px;
+margin-left: 3px;
 
 }
 
 #calculatorButtons{
     height: 120px;
     width:120px;
+    margin-top: 10px;
     
 
 }
 .digitButton{
+    padding: 0px;
     background-color: rgb(19, 132, 207);
     height: 20px;
     width: 20px;
@@ -63,6 +82,7 @@ width: 100px;
   }
 
   .functionButton{
+    padding: 0px;
     background-color: rgb(19, 207, 176);
     height: 20px;
     width: 20px;
@@ -71,17 +91,94 @@ width: 100px;
     margin: 2px;
   }
 
+#equals{
+    background-color: rgb(230, 88, 88);
+    width: 105px;
+}  
+
+/* Calculator End */
+
+/* Clock and Calendar Start */
+
+#clockAndCalendarTitle{
+    text-align: center;
+
+}
+
   #clockAndCalendar{
       margin-top: 20px;
       display: grid;
+      padding: 20px;
+      
   }
 
-  #calendar{
-    grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-template-areas: "calendarDay";
+  #clockContainer{
+    text-align: center;
   }
+
+  #clock{
+    background-color:white;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    
+  }
+  #calendarMonth{
+      background-color:white;
+      text-align: center;
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
+      border-color: black;
+      border-width: 2px;
+      border-style: solid;
+      border-bottom: none;
+      
+  }
+  #calendarDays{
+    
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    min-height: calc(100vh - 20px);
+    /* grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: "calendarDay"; */
+    
+  }
+
+  .calendarDay{
+    background-color:white;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+  }
+
+  /* Clock and Calendar End */
   
+  /* To Do List Start */
+
+#toDoListContainer{
+    margin-top: 50px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    width: 150px;
+    background-color: rgb(247, 247, 247);
+    padding: 5px;
+
+}
+
+#newToDo{
+padding-left: 5px;
+padding-right: 5px;
+}
+
+#toDoList{
+    font-size: 14px;
+    text-align: left;
+}
+
   @media (min-width: 500px) {
     .container {
       grid-template-columns: 1fr 3fr;
