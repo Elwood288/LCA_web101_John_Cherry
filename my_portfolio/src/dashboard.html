@@ -18,12 +18,8 @@
             <li><a href="#">nav 2</a></li>
             <li><a href="#">nav 3</a></li>
           </ul>
-        </nav>
-        <main>
-          <h1 id="clockAndCalendarTitle">Calendar and Clock</h1>
-          
 
-        <div id="clockAndCalendar">
+          <div id="clockAndCalendar">
             <div id="clockContainer"><span id="clock">
                 10:47 P.M.
             </span>
@@ -62,10 +58,29 @@
                     <div class="calendarDay">30</div>
                     <div class="calendarDay">31</div>
             </div>
+
+            <div id="toDoListContainer">
+                <input type="text" id="newToDo">
+                <ul id="toDoList">
+                    <li id="toDo">Code Calculator</li>
+                    <li id="toDo">Code Clock and Calendar</li>
+                    <li id="toDo">Code To Do List</li>
+                    <li id="toDo">Code Greeting</li>
+
+                </ul>
+
+
         </div>
+        </div>
+        </nav>
+        <main>
+          <h1 id="clockAndCalendarTitle">Main</h1>
+          
+
+        
         </main>
         <aside>
-            <p>Calculator and To Do List</p>
+            <p>Calculators</p>
 
                 <div id="calculator">
                         <input type="text" id="displayBox">
@@ -89,20 +104,33 @@
                             <button class="functionButton" id="equals">=</button>
                         </div>
                         
-                <div id="toDoListContainer">
-                        <input type="text" id="newToDo">
-                        <ul id="toDoList">
-                            <li id="toDo">Code Calculator</li>
-                            <li id="toDo">Code Clock and Calendar</li>
-                            <li id="toDo">Code To Do List</li>
-                            <li id="toDo">Code Greeting</li>
-
-                        </ul>
-
-
-                </div>
+            
                     </div>
 
+                    
+
+            <div id="newCalculator">
+                <input type="text" id="newDisplayBox">
+                         <div id="newCalculatorButtons">
+                            <button  class="newDigitButton" id="new7" onclick="calculator.display.value += '7'">7</button>
+                            <button class="newDigitButton" id="new8">8</button>
+                            <button class="newDigitButton" id="new9">9</button>
+                            <button class="newFunctionButton" id="newDivide">/</button>
+                            <button class="newDigitButton" id="new4">4</button>
+                            <button class="newDigitButton" id="new5">5</button>
+                            <button class="newDigitButton" id="new6">6</button>
+                            <button class="newFunctionButton" id="newMultiply">*</button>
+                            <button class="newDigitButton" id="new1">1</button>
+                            <button class="newDigitButton" id="new2">2</button>
+                            <button class="newDigitButton" id="new3">3</button>
+                            <button class="newFunctionButton" id="subtract">-</button>
+                            <button class="newDigitButton" id="new0">0</button>
+                            <button class="newDigitButton" id="newDecimal">.</button>
+                            <button class="newFunctionButton" id="newClear">C</button>
+                            <button class="newFunctionButton" id="newAdd">+</button>
+                            <button class="newFunctionButton" id="newEquals" onclick="">=</button>
+                        </div>
+            </div>
         </aside>
         <div class="banner">div.banner</div>
         <footer>footer</footer>
