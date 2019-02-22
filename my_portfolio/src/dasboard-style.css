@@ -182,25 +182,54 @@ padding-right: 5px;
 #newCalculator{
   margin: 5px;
   width: 140px;
+  background-color: rgb(60, 204, 204);
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 15px;
+  margin-left: 20px;
+  height: 160px;
+  width: 110px;
+  padding: 5px;
+ 
 }
 
 #newDisplayBox{
-  width: 120px;
+  width: 100px;
+  align-content: center;
 }
 #newCalculatorButtons{
   margin-top: 5px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 120px;
+  width: 100px;
+  margin-left: 5px;
 }
 
 .newDigitButton{
+  padding: 0px;
+  background-color: rgb(212, 216, 219);
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  margin: 2px;
 }
 
 .newFunctionButton{
+  padding: 0px;
+  background-color: rgb(19, 101, 207);
+  height: 20px;
+  width: 20px;
+  font-size: 12px;
+  text-align: center;
+  margin: 2px;
 } 
 
+#newEquals{
+  background-color: rgb(219, 125, 228);
+  width: 105px;
+}  
 
 
 /* Clock and Calendar End */
