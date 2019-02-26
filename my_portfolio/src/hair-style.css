@@ -55,6 +55,17 @@ a:link {
     height: 600px;
   }
  
+  #gokuTitle{
+    margin-left: 50%;
+    margin-top: 150px;;
+  }
+
+  .gokuContent{
+    margin-left: 50%;
+    
+  }
+  
+
   #mainBottom{
     background-color: red;
   }
