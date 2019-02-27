@@ -6,6 +6,7 @@
 
 nav {
     background-color: whitesmoke;
+    background-image: linear-gradient(whitesmoke, rgb(223, 138, 11));
     grid-area: nav;
   }
 
@@ -56,25 +57,90 @@ a:link {
   }
  
   #gokuTitle{
+    display: inline-block;
     margin-left: 50%;
-    margin-top: 150px;;
+    margin-top: 150px;
+    background-color: rgb(223, 138, 11);
+    padding: 10px 30px 10px 30px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    box-shadow: 2px 3px;
   }
 
   .gokuContent{
+    display: inline-block;
     margin-left: 50%;
-    
+    margin-top: 30px;
+    background-color: whitesmoke;
+    padding: 10px 30px 10px 30px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    box-shadow: 2px 3px;
   }
   
 
   #mainBottom{
-    background-color: red;
+    background-image: linear-gradient(rgb(35, 196, 245), rgb(248, 246, 244));
+    
   }
 
+  #hairStyles{
+    display: flex;
+    flex-direction: row;
+    margin: 5% 10% 5% 10%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #sanjiHair{
+    /* height: 323px; */
+  }
+  .hairImages{
+    margin: 20px;
+    height: 250px;
+    width: 250px;
+    border-color:  rgb(223, 138, 11);
+    border-width: 5px;
+    border-style: solid;
+    box-shadow: 2px 3px;
+  }
+
+  .hairNames{
+    text-align: center;
+  }
   footer {
-    background-color: khaki;
+    background-color:  rgb(223, 138, 11);
     grid-area: footer;
+    display: grid;
+    grid-template-areas: 
+      "footerLeft footerRight";
+    
   }
   
+  #footerLeft{
+    margin: 5% 10% 5% 10%;
+    padding-top: 5px;
+  }
+
+  #footerRight{
+    margin: 5% 10% 5% 10%;
+  }
+
+  #socialMedias{
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    justify-content: right;
+  }
+
+  .icons{
+    height: 50px;
+    width: auto;
+    padding: 5px;
+  }
+
   .container {
     display: grid;
     grid-template-areas: 
