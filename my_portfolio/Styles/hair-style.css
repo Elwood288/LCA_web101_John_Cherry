@@ -52,7 +52,7 @@ a:link {
   }
  
   #mainTop{
-    background-image: url(/my_portfolio/src/Images/Goku.jpg);
+    background-image: url(../Images/Goku.jpg);
     height: 600px;
   }
  
