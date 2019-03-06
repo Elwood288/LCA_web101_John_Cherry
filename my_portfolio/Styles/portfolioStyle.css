@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-image: linear-gradient(to bottom right, black, gray);
+  text-align: center;
+  color: white;
+  margin: 0 0 0 0;
+  border-bottom-style:outset;
+  border-bottom-color: white;
+  border-bottom-width: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+body{
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat
+}
+main{
+  
+  display: grid;
+  grid-template-areas: 
+  "mainTop"
+  "mainBottom"
+  "formBox";
+  
+}
+
+#mainTop{
+    grid-area: mainTop;
+    /* display: flex;  */
+    display: grid;
+    grid-template-areas:
+    "linkBox"
+    "siteBox";
+    margin: auto; 
+    align-content: center;  
+}
+
+#linkBox{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin: auto; 
+  align-content: center;
+  margin-top: 50px;
+
+}
+
+.links{
+  font-size: 20px;
+  padding-right: 20px;
+  font-family: 'Anton', sans-serif;
+  color: white;
+
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgb(27, 140, 233);
+}
+
+#siteBox{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 5px;
+}
+
+.siteFrames{
+  margin: 10px;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  
+}
+
+#mainBottom{
+  grid-area: mainBottom;
+  display: flex; 
+  margin: auto; 
+  align-content: center;
+  
+}
+
+#waffles{
+  padding: 20px;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  margin-right: 5px;
+}
+
+#minute{
+  padding: 20px;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+}
+
+#formBox{
+grid-area: formBox;
+margin-top: 100px;
+display: flex;
+flex-direction: column;
+align-content: center;
+text-align: center;
+padding-bottom: 50px;
+color: white;
+}
+
+#contactForm{
+  
+}
+
+#formHeader{
+  text-align: center;
+}
+.formInfo{
+  margin: 5px;
+  font-size: 14px; 
+}
