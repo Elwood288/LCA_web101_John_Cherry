@@ -1,0 +1,134 @@
+*{
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+body{
+background-color: black;
+
+}
+
+header{
+	background-color: lightblue;
+	background-image: linear-gradient(to bottom right, gray, black);
+	padding: 10px 10px 10px 10px;
+	margin-top: -20px;
+	margin-left: -20px;
+	margin-right: -8px;
+	border-bottom: 5px white outset;
+	font-weight: bold;
+	text-shadow: 2px 2px black;
+    color: white;
+    text-align: center;
+}
+
+
+#linkBox{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: auto; 
+    align-content: center;
+    margin-top: 50px;
+    justify-content: center;
+  }
+
+  .links{
+    font-size: 20px;
+    padding-right: 20px;
+    font-family: 'Anton', sans-serif;
+    color: white;
+  
+  }
+  
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:hover{
+    color: rgb(27, 140, 233);
+  }
+
+  main{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .hobbyNames{
+    border-bottom-color: white;
+    border-bottom-width: 3px;
+    border-bottom-style: outset;
+  }
+  .hobbyTextRight{
+    margin-left: 10px;
+  }
+  .hobbyTextLeft{
+    margin-right: 10px;
+  }
+
+  #animeBox{
+    display: flex;
+    flex-direction: row;
+  }
+
+  #heroscapeBox{
+    display: flex;
+    flex-direction: row;
+  }
+
+  #miniaturesBox{
+    display: flex;
+    flex-direction: row;
+  }
+
+  #videoGamesBox{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .hobbyImages{
+    height: 30%;
+    width: 30%;
+    border-color: white;
+    border-width: 3px;
+    border-style: outset;
+  }
+
+  footer{
+	background-color: gray;
+	background-image: linear-gradient(to bottom right, gray, black);
+	/* position: fixed; 
+	bottom: 0; 
+  left: 0; */
+  padding: 10px 10px 10px 10px;
+  margin-bottom: -20px;
+	margin-left: -20px;
+	margin-right: -8px;
+  height: 3%; 
+	/* width: 100%; */
+	text-align: center;
+	border-top: 5px white outset;
+	text-shadow: 1px 1px black;
+	color: white;
+  display: grid;
+  grid-template-areas: 
+    "footerLeft footerRight";
+}
+
+  #footerRight{
+    padding-right: 10%;
+  }
+
+  #socialMedias{
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    justify-content: right;
+  }
+
+  .icons{
+    height: 30px;
+    width: auto;
+    padding: 5px;
+    padding-top: 10px;
+  }
