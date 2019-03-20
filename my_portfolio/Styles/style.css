@@ -22,6 +22,7 @@ body {
     width: 100%;
     display: grid;
     grid-template-columns: 30% 40% 30%;
+    line-height: 50%;
   }
   
   nav > a {
@@ -41,6 +42,10 @@ body {
   }
 
   a:hover {background-color: #0795C3;}
+
+  a:link {
+    text-decoration: none;
+  }
   
   .has-border {
     border-radius: 25px;
@@ -57,18 +62,21 @@ body {
   }
   
   #profile-pic {
-    width: 250px;
-    height: 250px;
+    width: 220px;
+    height: 220px;
     border-radius: 50%;
     margin: 5% auto;
     grid-column: 2/3;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
   }
   
   h1 {
     color:white;
     grid-column: 2/3;
     margin: 3% auto;
-    border-bottom: 2px solid #1940A9;;
+    
   }
   
   h2 {
@@ -95,6 +103,54 @@ body {
     font-style: italic;
   }
 
+  #portfolio{
+    grid-column: 2/3;
+    margin: 3% auto;
+    width: 70%;
+    height: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 25px;
+    background: transparent;
+    padding: 20px; 
+    padding-bottom: 5%;
+    text-align: center;
+    color: white;
+    letter-spacing: 16px;
+    font-style: italic;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px;
+  }
+
+  @keyframes somethingCool {
+    from {
+      margin-left: -15%; 
+      visibility: hidden;
+    }
+    to {
+      margin-left: 90%;
+      visibility: visible;
+    }
+}
+
+
+#welcome {
+    background-color: #0795C3;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    width: 100px;
+    /* height: 100px; */
+    margin-left: -10%;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+    visibility: hidden;
+    animation-name: somethingCool;
+    animation-duration: 10s;
+}
 
   @media(max-width: 992px ){
     .logo {
