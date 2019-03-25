@@ -1,0 +1,97 @@
+*{
+    background-color: black;
+}
+
+#red{
+    background-color: red;
+}
+
+#orange{
+    background-color: orange;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+#green{
+    background-color: green;
+}
+
+#blue{
+    background-color: blue;
+}
+
+#purple{
+    background-color: purple;
+}
+
+#purple2{
+    background-color: purple;
+}
+
+#blue2{
+    background-color: blue;
+}
+
+#green2{
+    background-color: green;
+}
+
+#yellow2{
+    background-color: yellow;
+}
+
+#orange2{
+    background-color: orange;
+}
+
+#red2{
+    background-color: red;
+}
+
+.allBoxes{
+    height: 50px;
+    width: 50px;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
+    transition: all 5s ease-in-out;
+}
+
+#bigBoxFullOfBoxes{
+    width: 50px;
+    position: absolute;
+    left:calc(50vw - 25px);
+}
+
+#bigBoxFullOfBoxes:hover :nth-child(odd){
+    transform: translate(calc(50vw - 100px)) rotate(360deg) scale(2,2); 
+    /* animation: slideToTheRight 5s;
+    animation-fill-mode: forwards; */
+}
+
+#bigBoxFullOfBoxes:hover :nth-child(even){
+    transform:  translate(calc(-50vw + 50px)) rotate(-360deg) scale(0.5,0.5);
+    /* animation: slideToTheLeft 5s;
+    animation-fill-mode: forwards; */
+}
+
+@keyframes slideToTheRight {
+    from {
+      margin-left: 0;
+    }
+    to {
+      margin-left: 500px;
+    }
+}
+
+@keyframes slideToTheLeft {
+    from {
+      margin-left: 0;
+    }
+    to {
+      margin-left: -500px;
+    }
+}
