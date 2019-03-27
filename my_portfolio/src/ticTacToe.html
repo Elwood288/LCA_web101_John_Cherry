@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../Styles/TicTacStyle.css">
+    <script src="../Scripts/ticTacToe.js"></script>
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div id="buttonBox">
+        <button id="buttonX" onclick="changeMarkerToX()">X</button>
+        <button id="buttonO" onclick="changeMarkerToO()">O</button>
+    </div>
+    <div id="gameBoard">
+        <div class="gameSpace" id="space1" onclick="placeMarker(this.id)"> </div>
+        <div class="gameSpace" id="space2" onclick="placeMarker(this.id)"> </div>
+        <div class="gameSpace" id="space3" onclick="placeMarker(this.id)"> </div>
+        <div class="gameSpace" id="space4" onclick="placeMarker(this.id)"> </div>
+        <div class="gameSpace" id="space5" onclick="placeMarker(this.id)"></div>
+        <div class="gameSpace" id="space6" onclick="placeMarker(this.id)"></div>
+        <div class="gameSpace" id="space7" onclick="placeMarker(this.id)"></div>
+        <div class="gameSpace" id="space8" onclick="placeMarker(this.id)"></div>
+        <div class="gameSpace" id="space9" onclick="placeMarker(this.id)"></div>
+    </div>
+</body>
+</html>
