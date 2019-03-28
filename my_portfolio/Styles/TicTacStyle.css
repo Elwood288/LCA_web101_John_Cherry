@@ -14,7 +14,6 @@ background-color: black;
     height: 50vh;
     position: absolute;
     left:calc(35vw - 25px);
-     
 }
 
 #buttonBox{
@@ -58,6 +57,12 @@ background-color: black;
 
 #buttonO:hover {
     background-color: #0795C3;
+}
+
+.gameSpace{
+  padding-top: 25px;
+  font-size: 50px;
+  text-align: center;
 }
 
 #space1{
