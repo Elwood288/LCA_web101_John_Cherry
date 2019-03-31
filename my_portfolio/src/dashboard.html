@@ -58,19 +58,32 @@
                     <div class="calendarDay">30</div>
                     <div class="calendarDay">31</div>
             </div>
-
-            <div id="toDoListContainer">
-                <input type="text" id="newToDo">
+<!-- ______________________________________________________________________________________________ -->
+            <!-- <div id="toDoListContainer">
+                <input type="text" id="newToDo" placeholder="Item">
                 <ul id="toDoList">
                     <li id="toDo">Code Calculator</li>
                     <li id="toDo">Code Clock and Calendar</li>
                     <li id="toDo">Code To Do List</li>
                     <li id="toDo">Code Greeting</li>
-
                 </ul>
-
-
+            </div> -->
+        <div id="toDoListContainer">
+            <div id="list_section">
+                <h1 id="toDoTitle">To-do list</h1>
+                <ul>
+                  <li class="item">Buy movie tickets</li>
+                </ul>
+                <div id="newItemButton"><button href="#">new item</button></div>
+                <form id="newItemForm">
+                  <input type="text" id="itemField" placeholder="Item" />
+                  <input type="submit" id="add" value="add" />
+                </form>
+              </div>
+              <script src="../Scripts/jquery-3.3.1.min.js"></script>  
+              <script src="../Scripts/toDo.js"></script>
         </div>
+<!-- ______________________________________________________________________________________________ -->
         </div>
         </nav>
         <main>
