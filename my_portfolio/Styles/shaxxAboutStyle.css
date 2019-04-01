@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Laila', serif;
+}
+
+header{
+background-color: rgba(0, 0, 0, .5);
+margin-top: -20px;
+padding: 20px;
+color: white;
+line-height: 0.5;
+}
+
+#pageTitleEmblem{
+    height: 75px;
+    width: 75px; 
+    float: left;
+}
+
+#pageTitle{
+margin: 20px 0 0 50px;
+font-weight: bold;
+}
+
+#pageSubtitle{
+    margin: 20px 0 0 50px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#linkBox{
+float: right;
+margin: -30px 50px;
+font-size: 20px;
+color: white;
+}
+
+.links{
+    padding-right: 10px;
+    color: white;
+}
+
+#facebookIcon{
+    height: 5vh;
+    width: auto;
+    vertical-align: middle;
+}
+
+#instagramIcon{
+    height: 5vh;
+    width: auto;
+    vertical-align: middle;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: orange;
+    font-size: 120%;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+
+  body{
+    background-color: black;
+    background-image: url(../Images/shaxx.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 14px;
+    
+}
+
+
+/* _____________________________________________ */
+
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 50px 5vw 50px 5vw;
+}
+
+
+.mainSections{
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
+    padding: 20px;
+}
+
+.sectionTitleEmblems{
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.mainTitles{
+    font-size: 20px;
+    text-align: center;
+}
+#mainLeft{
+    margin-right: 5vw;
+}
+
+#mainRight{
+    margin-left: 5vw;
+}
+
+/* ______________________________________________________ */
+
+
+footer{
+    background-color: rgba(0, 0, 0, 0.5);
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    font-size: 14px; 
+}
