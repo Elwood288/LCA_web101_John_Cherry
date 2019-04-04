@@ -160,3 +160,163 @@ footer{
 }
 
 
+@media (max-width: 576px) {
+*{
+        margin: 0;
+        padding: 0;
+        font-family: 'Laila', serif;
+}
+
+html, body{
+    /* width: 100vw;
+    contain: strict; */
+}
+
+header{
+    background-color: rgba(0, 0, 0, .5);
+    margin-top: 0px;
+    padding: 10px;
+    color: white;
+    line-height: 0.5;
+    /* display: flex;
+    flex-direction: column; */
+    /* width: 100vw; */
+    }
+    
+    #pageTitleEmblem{
+    height: 100px;
+    width: 100px;
+    float: none;
+    margin-left: 30vw;
+    margin-top: 4vh;
+    }
+    
+    #pageTitle{
+    /* margin: 50px 0 0 50px; */
+    font-weight: bold;
+    font-size: 30px;
+    }
+    
+    #pageSubtitle{
+        margin: 20px 0 0 50px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    #linkBox{
+    float: none;
+    display: inline-block;
+    margin: 30px 50px;
+    font-size: 14px;
+    color: white;
+    }
+    
+    .links{
+        padding-right: 10px;
+        color: white;
+    }
+    
+    #facebookIcon{
+        height: 5vh;
+        width: auto;
+        vertical-align: middle;
+        display: none;
+    }
+    
+    #instagramIcon{
+        height: 5vh;
+        width: auto;
+        vertical-align: middle;
+        display: none;
+    }
+    
+    a:link {
+        text-decoration: none;
+      }
+      
+      a:visited {
+        text-decoration: none;
+      }
+      
+      a:hover {
+        text-decoration: none;
+        color: orange;
+        font-size: 120%;
+      }
+      
+      a:active {
+        text-decoration: none;
+        color: orange;
+        font-size: 120%;
+      }
+    
+    body{
+        background-color: black;
+        background-image: url(../Images/shaxx.jpg);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-attachment: local;
+        font-size: 10px;
+        
+    }
+    
+    main{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 5vw 0px 5vw;
+        width: 80vw;
+    }
+    
+    
+    .mainSections{
+        font-size: 12px;
+        background-color: rgba(0, 0, 0, .8);
+        color: white;
+        padding: 10px;
+    }
+    
+    .mainTitles{
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .sectionTitleEmblems{
+        height: 30px;
+        width: 30px;
+        padding: 5px;
+        vertical-align: middle;
+    }
+    
+    #mainLeft{
+        margin-right: 5vw;
+    }
+    
+    #mainMiddle
+    {
+        background-color: rgba(0, 0, 0, .5);
+    }
+    #mainRight{
+        margin-left: 0vw;
+    }
+    
+    #chibiShaxx{
+        position: fixed;
+        left: 26vw;
+        top: 120vh;
+        display: none;
+        animation-name: shaxxSlide;
+        animation-duration: 10s;
+        width: 50vw;
+        height: auto;
+    }
+
+    footer{
+        background-color: rgba(0, 0, 0, 0.5);
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100vw;
+        color: white;
+        font-size: 10px; 
+    }
+}
