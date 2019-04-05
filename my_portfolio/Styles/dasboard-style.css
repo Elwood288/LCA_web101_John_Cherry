@@ -1,14 +1,68 @@
+*{
+  font-family: 'Laila', serif;
+}
+
+
+body{
+  background-color: black;
+    background-image: url(../Images/MGSfox.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 header {
-    background-color: lightblue;
-    grid-area: header;
+  font-family: 'Laila', serif;
+  background-color: lightblue;
+	background-image: linear-gradient(to bottom right, gray, black);
+	padding: 10px 10px 10px 10px;
+	margin-top: -20px;
+	margin-left: -20px;
+	margin-right: -8px;
+	border-bottom: 5px white outset;
+	font-weight: bold;
+	text-shadow: 2px 2px black;
+  color: white;
+  text-align: center;
+  line-height: 0.5;
+  grid-area: header;
+  }
+
+  #linkBox{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: auto; 
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    line-height: 1.5;  }
+
+  .links{
+    font-size: 14px;
+    padding-right: 20px;
+    font-family: 'Laila', serif;
+    color: white;
+  
+  }
+  
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:hover{
+    color: rgb(27, 140, 233);
+    font-size: 110%;
   }
   main {
-    background-color: pink;
+    font-family: 'Laila', serif;
+    background-color: rgba(0, 0, 0, 0.5);
     min-height: calc(100vh - 54px);
     grid-area: main;
+    color: white;
   }
   nav {
-    background-color: lightsalmon;
+    background-color: rgba(0, 0, 0, 0.5);
     grid-area: nav;
   }
 
@@ -28,18 +82,57 @@ header {
     text-decoration: none;
   }
   aside {
-    background-color: lightgreen;
+    background-color: rgba(0, 0, 0, 0.5);
     grid-area: aside;
   }
   .banner {
-    background-color: lavender;
+    background-color: rgba(0, 0, 0, 0.5);
     grid-area: banner;
   }
   footer {
-    background-color: khaki;
+    font-family: 'Laila', serif;
+    background-color: gray;
+	background-image: linear-gradient(to bottom right, gray, black);
+	/* position: fixed; 
+	bottom: 0; 
+  left: 0; */
+  padding: 10px 10px 10px 10px;
+  margin-bottom: -20px;
+	margin-left: -20px;
+	margin-right: -8px;
+  /* height: 3%;  */
+	/* width: 100%; */
+	/* text-align: center; */
+	border-top: 5px white outset;
+	text-shadow: 1px 1px black;
+	color: white;
+  display: grid;
+  grid-template-areas: 
+    "footerLeft footerRight";
     grid-area: footer;
   }
   
+  #footerLeft{
+    margin-left: 5vw;
+  }
+  #footerRight{
+    padding-right: 10px;
+  }
+
+  #socialMedias{
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    justify-content: right;
+  }
+
+  .icons{
+    height: 30px;
+    width: auto;
+    padding: 5px;
+    padding-top: 10px;
+  }
+
   .container {
     display: grid;
     grid-template-areas: 
@@ -128,7 +221,12 @@ margin-left: 3px;
 #clockAndCalendar{
     margin-top: 50px;
     padding: 10px;
-    
+    background-color: rgb(27, 140, 233);
+    background-image: linear-gradient(to bottom right, white, rgb(27, 140, 233));
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px;
 }
 
 #clockContainer{
@@ -236,12 +334,12 @@ margin-left: 3px;
   font-size: 14px;
   text-align: left;
 }
-input[type='text'] {
+/* input[type='text'] {
   font-size: 14px;
   padding: 6px;
   border: 1px solid #000;
   border-radius: 3px;
-}
+} */
 
 input[type='submit'] {
   background-color: #fff;
@@ -272,11 +370,13 @@ text-align: center;
 
  #toDoListContainer{
   margin-top: 50px;
-  border-color: black;
-  border-width: 2px;
-  border-style: solid;
+  border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px;
   width: 150px;
-  background-color: rgb(247, 247, 247);
+  background-color: rgb(27, 140, 233);
+  background-image: linear-gradient(to bottom right, white, rgb(27, 140, 233));
   padding: 5px;
   margin-left:25%;
 }
@@ -290,6 +390,7 @@ width: 140px;
 #toDoList{
   font-size: 14px;
   text-align: left;
+  
 }
 
 /* To Do List End */
@@ -380,11 +481,12 @@ margin-left: 3px;
 
 #toDoListContainer{
   margin-top: 50px;
-  border-color: black;
-  border-width: 2px;
-  border-style: solid;
+  /* border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px; */
   width: 150px;
-  background-color: rgb(247, 247, 247);
+  /* background-color: rgb(27, 140, 233); */
   padding: 5px;
   margin-left:1%;
 }
@@ -595,12 +697,13 @@ margin-left: 3px;
 
 #toDoListContainer{
   margin-top: 50px;
-  border-color: black;
-  border-width: 2px;
-  border-style: solid;
+  /* border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px; */
   width: 150px;
-  background-color: rgb(247, 247, 247);
-  padding: 5px;
+  /* background-color: rgb(27, 140, 233); */
+  padding: 15px;
 
 }
 
