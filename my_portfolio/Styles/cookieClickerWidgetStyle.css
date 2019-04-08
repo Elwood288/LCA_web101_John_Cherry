@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#cookieContainer{
+background-color: rgb(27, 140, 233);
+width: 100vw;
+height: 100vh;
+text-align: center;
+}
+
+#cookieCounter{
+border-color: white;
+border-width: 2px;
+border-style: solid;
+border-radius: 15px;
+text-align: center;
+width: 90vw;
+font-size: 50px;
+display: inline-block;
+margin: 1vw;
+margin-top: 10vh;
+background-color: rgb(139, 196, 243);
+}
+
+#cookie{
+margin-left: 23vw;
+display: block;
+background: none;
+border: none;
+margin-top: 5vh;
+}
+
+#cookie:focus{
+    outline: 0;
+}
+
+#cookieImage{
+    width: 60vw;
+    height: auto;
+    
+}
+
+#cookie:active > #cookieImage{
+    width: 62vw;
+    height: auto;
+    transform: translate(-1vw);
+}
