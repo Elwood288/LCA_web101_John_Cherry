@@ -61,6 +61,21 @@ header {
     grid-area: main;
     color: white;
   }
+
+#cookieClicker{
+  margin-left: 5vw;
+  margin-top: 5vh;
+  height: 50vh;
+  width: 20vw;
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 15px;
+}
+
+
+
+
   nav {
     background-color: rgba(0, 0, 0, 0.5);
     grid-area: nav;

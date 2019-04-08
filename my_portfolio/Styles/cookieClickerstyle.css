@@ -1,0 +1,41 @@
+#cookieContainer{
+margin-left: 40vw;
+border-color: white;
+border-width: 5px;
+border-style: solid;
+border-radius: 15px;
+background-color: rgb(27, 140, 233);
+width: 25vw;
+text-align: center;
+}
+
+#cookieCounter{
+border-color: white;
+border-width: 2px;
+border-style: solid;
+border-radius: 15px;
+text-align: center;
+width: 21vw;
+font-size: 50px;
+display: inline-block;
+margin: 1vw;
+background-color: rgb(139, 196, 243);
+}
+
+#cookie{
+display: inline-block;
+background: none;
+border: none;
+}
+
+
+
+#cookieImage{
+    width: 20vw;
+    height: auto;
+}
+
+#cookie:active > #cookieImage{
+    width: 22vw;
+    height: auto;
+}
