@@ -1,0 +1,36 @@
+body{
+background-color: black;
+}
+
+input {
+    width: 119.5px;
+    margin-left: 2px
+  }
+
+  .numberButton {
+    background-color: white;
+    border: 1px solid black;
+    width: 26px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .operatorButton {
+    background-color: rgb(15, 126, 253);
+    border: 1px solid black;
+    width: 26px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  #equalsButton{
+    background-color: red;
+  }
+
+  #deleteButton{
+    background-color: azure;
+  }
+
+  #clearButton{
+    background-color: azure;
+  }

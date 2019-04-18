@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../Styles/calculatorStyle.css">
+    <script src="../Scripts/calculatorScript.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="calc">
+        <input type="text" id="results" readonly>
+        <table>
+          <tr>
+            <td class="numberButton" onclick="addNumber('1')">1</td>
+            <td class="numberButton" onclick="addNumber('2')">2</td>
+            <td class="numberButton" onclick="addNumber('3')">3</td>
+            <td class="operatorButton" onclick="addition()">+</td>
+          </tr>
+          <tr>
+            <td class="numberButton" onclick="addNumber('4')">4</td>
+            <td class="numberButton" onclick="addNumber('5')">5</td>
+            <td class="numberButton" onclick="addNumber('6')">6</td>
+            <td class="operatorButton" onclick="subtraction()">-</td>
+          </tr>
+          <tr>
+            <td class="numberButton" onclick="addNumber('7')">7</td>
+            <td class="numberButton" onclick="addNumber('8')">8</td>
+            <td class="numberButton" onclick="addNumber('9')">9</td>
+            <td class="operatorButton" onclick="multiplication()">*</td>
+          </tr>
+          <tr>
+            <td class="numberButton" onclick="decimal()">.</td>
+            <td class="numberButton" onclick="addNumber('0')">0</td>
+            <td class="operatorButton" id="equalsButton" onclick="equals()">=</td>
+            <td class="operatorButton" onclick="division()">/</td>
+          </tr>
+          <tr>
+            <td class="operatorButton" id="deleteButton" colspan="2" onclick="deleteLast()">Delete</td>
+            <td class="operatorButton" id="clearButton" colspan="2" onclick="clearResults()">Clear</td>
+        </table>
+      </div>
+</body>
+</html>
